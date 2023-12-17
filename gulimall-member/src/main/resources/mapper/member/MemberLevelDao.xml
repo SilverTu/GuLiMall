@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.tshc.member.dao.MemberLevelDao">
+
+  <!-- 可根据自己的需求，是否要使用 -->
+  <resultMap id="memberLevelMap" type="org.tshc.member.entity.MemberLevelEntity">
+    <result column="id" property="id"/>
+    <result column="name" property="name"/>
+    <result column="growth_point" property="growthPoint"/>
+    <result column="default_status" property="defaultStatus"/>
+    <result column="free_freight_point" property="freeFreightPoint"/>
+    <result column="comment_growth_point" property="commentGrowthPoint"/>
+    <result column="priviledge_free_freight" property="priviledgeFreeFreight"/>
+    <result column="priviledge_member_price" property="priviledgeMemberPrice"/>
+    <result column="priviledge_birthday" property="priviledgeBirthday"/>
+    <result column="note" property="note"/>
+  </resultMap>
+
+
+</mapper>

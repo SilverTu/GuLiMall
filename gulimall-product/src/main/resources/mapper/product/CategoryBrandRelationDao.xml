@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.tshc.product.dao.CategoryBrandRelationDao">
+
+  <!-- 可根据自己的需求，是否要使用 -->
+  <resultMap id="categoryBrandRelationMap"
+    type="org.tshc.product.entity.CategoryBrandRelationEntity">
+    <result column="id" property="id"/>
+    <result column="brand_id" property="brandId"/>
+    <result column="catelog_id" property="catelogId"/>
+    <result column="brand_name" property="brandName"/>
+    <result column="catelog_name" property="catelogName"/>
+  </resultMap>
+
+
+</mapper>

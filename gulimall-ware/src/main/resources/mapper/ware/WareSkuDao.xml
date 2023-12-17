@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.tshc.ware.dao.WareSkuDao">
+
+  <!-- 可根据自己的需求，是否要使用 -->
+  <resultMap id="wareSkuMap" type="org.tshc.ware.entity.WareSkuEntity">
+    <result column="id" property="id"/>
+    <result column="sku_id" property="skuId"/>
+    <result column="ware_id" property="wareId"/>
+    <result column="stock" property="stock"/>
+    <result column="sku_name" property="skuName"/>
+    <result column="stock_locked" property="stockLocked"/>
+  </resultMap>
+
+
+</mapper>

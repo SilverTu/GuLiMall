@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.tshc.order.dao.OrderOperateHistoryDao">
+
+  <!-- 可根据自己的需求，是否要使用 -->
+  <resultMap id="orderOperateHistoryMap" type="org.tshc.order.entity.OrderOperateHistoryEntity">
+    <result column="id" property="id"/>
+    <result column="order_id" property="orderId"/>
+    <result column="operate_man" property="operateMan"/>
+    <result column="create_time" property="createTime"/>
+    <result column="order_status" property="orderStatus"/>
+    <result column="note" property="note"/>
+  </resultMap>
+
+
+</mapper>

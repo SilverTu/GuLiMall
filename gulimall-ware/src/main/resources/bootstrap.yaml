@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: ware-server
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.31.165:8848
+#        namespace: 5b2af01a-fe48-4137-bc09-a813f0c0e6d8
+#        file-extension: yaml
+#        ext-config:
+#          - refresh: true
+#            group: dev
+#            data-id: server.yaml
+#          - refresh: true
+#            group: dev
+#            data-id: spring-datasource.yaml
+#          - refresh: true
+#            group: dev
+#            data-id: spring-cloud.yaml
+#          - refresh: true
+#            group: dev
+#            data-id: mybatis-plus.yaml
